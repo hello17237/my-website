@@ -1,0 +1,24 @@
+.Homepage {
+    /* border: 1px solid green; */
+    height: 100vh;
+    width: 100%;
+    background-color: #0e1212;
+    background-image: url('HomeBackgroundPurple.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Name {
+    display: block;
+    color: rgb(230, 230, 230);
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    font-size: 12vh;
+    letter-spacing: 12px;
+    word-spacing: 40px;
+    /* border: 1px solid white; */
+}

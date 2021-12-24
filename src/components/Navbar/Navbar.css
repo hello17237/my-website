@@ -1,0 +1,43 @@
+.Navlink {
+    display: inline-block;
+    /* border: 1px solid white; */
+}
+
+.Navurl {
+    color: white;
+    text-decoration: none;
+}
+
+.Navlist {
+    width: 35%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    font-size: 2rem;
+}
+
+.Navbar {
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.Navbar-full {
+    background-color: #0e1212;
+    height: 6vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+}

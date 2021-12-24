@@ -1,0 +1,33 @@
+.AboutMePage {
+    height: 100vh;
+    background-color: #0e1212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('AboutMeBackground.png');
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    background-position-y: center;
+}
+
+.AboutMeHeader {
+    color: white;
+    /* border: 1px solid green; */
+    margin-bottom: 18px;
+    font-size: 3rem;
+}
+
+.AboutMeHeader-me {
+    color: #682ae9;
+}
+
+.AboutMeParagraph {
+    color: white;
+    font-size: 1rem;
+}
+
+.AboutMeText {
+    width: 50vw;
+    min-width: 30rem;
+    position: relative;
+}

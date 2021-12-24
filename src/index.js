@@ -4,10 +4,36 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const navlinks = [
+  {
+    id: 1,
+    text: 'Home',
+    url: 'https://www.google.com/doodles'
+  },
+  {
+    id: 2,
+    text: 'About Me',
+    url: 'https://www.google.com/doodles'
+  },
+  {
+    id: 3,
+    text: 'Projects',
+    url: 'https://www.google.com/doodles'
+  },
+  {
+    id: 4,
+    text: 'Photography',
+    url: 'https://www.google.com/doodles'
+  },
+  {
+    id: 5,
+    text: 'Contact Me',
+    url: 'https://www.google.com/doodles'
+  }
+]
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App navlinks={navlinks}/>,
   document.getElementById('root')
 );
 
