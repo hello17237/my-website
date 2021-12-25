@@ -22,7 +22,7 @@
 }
 
 .Navbar {
-    margin: auto;
+    margin: 2vh auto auto;
     width: 90vw;
     display: flex;
     flex-flow: row wrap;
@@ -32,12 +32,13 @@
 }
 
 .Navbar-full {
-    background-color: #0e1212;
-    height: 6vh;
+    background-image: linear-gradient(to bottom, #0e1212, #0e1212, rgb(0,0,0,0));
+    height: 12vh;
     width: 100vw;
     position: fixed;
     top: 0;
     display: flex;
-    align-items: center;
+    flex-flow: row;
+    align-content: flex-start;
     /* border: 1px solid white; */
 }
