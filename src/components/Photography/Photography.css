@@ -1,1 +1,33 @@
-/*code*/
+.PhotoPage {
+    background-color: #aa946c;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.Gallery {
+    max-width: 50vw;
+    display: flex;
+    flex-flow: row;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+.galleryColumn {
+    display: flex;
+    flex-flow: column;
+    max-width: 31%;
+    /* border: 1px solid green; */
+}
+
+.PhotoHeader {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.Image {
+    margin-bottom: 3vh;
+}

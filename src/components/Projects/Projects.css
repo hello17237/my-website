@@ -1,1 +1,42 @@
-/*code*/
+.ProjectsPage {
+    background-image: linear-gradient(to bottom, #0e1212, #aa946c);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid red; */
+    padding: 5rem 0;
+}
+
+.ProjectsHeader {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.ProjectsList {
+    list-style-type: none;
+}
+
+.ProjectImage {
+    border-radius: 50%;
+    width: 15vw;
+    height: auto;
+}
+
+.ProjectsElem {
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.ProjectsElemText {
+    margin-left: 1rem;
+}
+
+.ProjectsText {
+    width: 50vw;
+}
