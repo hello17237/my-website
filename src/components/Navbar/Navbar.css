@@ -6,6 +6,12 @@
 .Navurl {
     color: white;
     text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.5s;
+}
+
+.Navurl:hover {
+    color: #682ae9;
 }
 
 .Navlist {
@@ -42,4 +48,17 @@
     align-content: flex-start;
     /* border: 1px solid white; */
     z-index: 999;
+    opacity: 0;
+    animation: navbarFadeIn 1s 1s forwards;
+}
+
+@keyframes navbarFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

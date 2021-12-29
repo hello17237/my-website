@@ -1,5 +1,5 @@
 .AboutMePage {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #0e1212;
     display: flex;
     justify-content: center;
@@ -29,5 +29,5 @@
 .AboutMeText {
     width: 50vw;
     min-width: 30rem;
-    position: relative;
+    /* position: relative; */
 }
