@@ -1,5 +1,6 @@
 .ProjectsPage {
-    background-image: linear-gradient(to bottom, #0e1212, #aa946c);
+    /* background-image: linear-gradient(to bottom, #0e1212, #aa946c); */
+    background-color: #0e1212;
     color: white;
     min-height: 100vh;
     display: flex;

@@ -1,6 +1,8 @@
 .PhotoPage {
-    background-color: #aa946c;
-    color: white;
+    /* background-color: #aa946c; */
+    background-color: rgb(230, 230, 230);
+    /* color: white; */
+    color: #0e1212;
     min-height: 100vh;
     display: flex;
     justify-content: center;

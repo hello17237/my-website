@@ -3,8 +3,8 @@ import React from 'react'
 function ScrollButton({destination}) {
 
     return(
-        <div>
-            <a href={destination}>Scroll</a>
+        <div className='ScrollButtonContainer'>
+            <a className='ScrollButton' href={destination}><i class="fas fa-angle-double-down"></i></a>
         </div>
     )
 }

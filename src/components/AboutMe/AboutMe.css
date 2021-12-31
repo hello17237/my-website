@@ -23,11 +23,63 @@
 
 .AboutMeParagraph {
     color: white;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.9rem;
 }
 
 .AboutMeText {
     width: 50vw;
     min-width: 30rem;
-    /* position: relative; */
+    /* border: 1px solid white; */
+}
+
+.AboutMeParagraph > a {
+    text-decoration: none;
+    color: white;
+    background-color: #662ae949;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.AboutMeParagraph > a:hover {
+    color: #682ae9;
+    background-color: rgb(230, 230, 230);
+}
+
+.AboutMeBar {
+    /* border: 1px solid red; */
+    list-style-type: none;
+}
+
+.AboutMeBar > li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.fab {
+    /* border: 1px solid green; */
+    font-size: 1.7rem;
+    color: #682ae9;
+    position: relative;
+    top: 5px;
+    transition: color 0.5s;
+}
+
+.ResumeButton {
+    padding: 0.3rem 0.5rem;
+    border-radius: 7px;
+    color: #0e1212;
+    background-color: #682ae9;
+    font-size: 0.9rem;
+    /* position: relative;
+    bottom: 15%; */
+    transition: background-color 0.5s;
+}
+
+.fab:hover {
+    color: rgb(230, 230, 230);
+}
+
+.ResumeButton:hover {
+    background-color: rgb(230, 230, 230);
 }

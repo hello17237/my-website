@@ -24,17 +24,25 @@
 }
 
 .Logo {
-    font-size: 2rem;
+    font-size: 1.3rem;
+    font-family: 'Monoton', cursive;
+    /* border: 1px solid white; */
+    color: #682ae9;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .Navbar {
     margin: 2vh auto auto;
     width: 90vw;
+    height: 2rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     color: white;
     /* border: 1px solid red; */
+    position: relative;
 }
 
 .Navbar-full {
@@ -49,7 +57,7 @@
     /* border: 1px solid white; */
     z-index: 999;
     opacity: 0;
-    animation: navbarFadeIn 1s 1s forwards;
+    animation: navbarFadeIn 1s 2s forwards;
 }
 
 @keyframes navbarFadeIn {
@@ -61,4 +69,27 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.NavbarIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.NavbarIcons > a {
+    /* border: 1px solid red; */
+    color: #682ae9;
+    font-size: 1.5rem;
+    margin: 0 1vh;
+    padding: 0;
+    transition: color 0.5s;
+}
+
+.NavbarIcons > a:hover {
+    color: white;
 }

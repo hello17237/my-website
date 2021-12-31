@@ -9,7 +9,7 @@ function Home({name}) {
         <div className='Homepage'>
             <div className='HomeBackground'></div>
             <Name name={name}/>
-            {/* <ScrollButton destination='#about-me'/> */}
+            <ScrollButton destination='#about-me'/>
         </div>
     )
 }
