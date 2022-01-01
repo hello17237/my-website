@@ -3,7 +3,7 @@ import React from 'react'
 function ProjectsHeader() {
     return(
         <h2 className='ProjectsHeader'>
-            projects
+            selected <span className='ProjectsHeader-works'>works</span>
         </h2>
     )
 }

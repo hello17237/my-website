@@ -33,8 +33,10 @@ function Projects() {
 
     return(
         <div className='ProjectsPage'>
+            <div className='ProjectsBackground'></div>
             <div className='ProjectsText'>
                 <ProjectsHeader/>
+                <p className='ProjectsIntro'>Here are some projects I've been working on lately.</p>
                 <ProjectsList projects={projects}/>
             </div>
         </div>

@@ -30,6 +30,7 @@
 .AboutMeText {
     width: 50vw;
     min-width: 30rem;
+    opacity: 0;
     /* border: 1px solid white; */
 }
 
@@ -82,4 +83,19 @@
 
 .ResumeButton:hover {
     background-color: rgb(230, 230, 230);
+}
+
+.fadeInBot {
+    animation: fadeInBot 1s forwards;
+}
+
+@keyframes fadeInBot {
+    from {
+        opacity: 0;
+        transform: translateY(30%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

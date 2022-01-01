@@ -8,15 +8,44 @@
     align-items: center;
     /* border:1px solid red; */
     padding: 5rem 0;
+    position: relative;
+}
+
+.ProjectsBackground {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-color: #0e1212;
+    background-image: 
+        linear-gradient(to bottom, #0e1212, #0e1212 15%, #0e121200 50%, #0e1212 85%, #0e1212),
+        url('./ProjectImages/ProjectBackground.jpg');
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%; */
 }
 
 .ProjectsHeader {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    z-index: 10;
+}
+
+.ProjectsHeader-works {
+    color: #682ae9;
+}
+
+.ProjectsIntro {
+    font-size: 0.9rem;
+    /* color: rgb(230, 230, 230); */
 }
 
 .ProjectsList {
     list-style-type: none;
+    z-index: 10;
 }
 
 .ProjectImage {
@@ -32,6 +61,22 @@
     justify-content: flex-start;
     align-items: center;
     margin: 2rem 0;
+    opacity: 0;
+}
+
+.fadeInRight {
+    animation: fadeInRight 1s forwards;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .ProjectsElemText {
@@ -40,4 +85,5 @@
 
 .ProjectsText {
     width: 50vw;
+    z-index: 1;
 }
