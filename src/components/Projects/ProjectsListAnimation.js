@@ -1,22 +1,18 @@
-let target;
-
 function intersectionHandler(entries, observer) {
     entries.forEach(
         (entry) => {
             if (entry.isIntersecting) {
-                document.querySelectorAll('.ProjectsElem')[0].classList.add('fadeInRight');
-                document.querySelectorAll('.ProjectsElem')[1].classList.add('fadeInRight');
-                document.querySelectorAll('.ProjectsElem')[2].classList.add('fadeInRight');
+                entry.target.classList.add('fadeInRight')
             }
         }
     )
 }
 
-function createObserver() {
+function createObserver(target) {
     let observer;
 
     let options = {
-        threshold: 0.5
+        threshold: 0.3
     }
 
     observer = new IntersectionObserver(intersectionHandler, options);
@@ -24,6 +20,8 @@ function createObserver() {
 }
 
 window.addEventListener('load', (e) => {
-    target = document.querySelector('.ProjectsList')
-    createObserver();
+    for (let i = 0; i < 3; i++) {
+        let target = document.querySelectorAll('.ProjectsElem')[i];
+        createObserver(target);
+    }
 })
