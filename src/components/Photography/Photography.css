@@ -1,13 +1,13 @@
 .PhotoPage {
     /* background-color: #aa946c; */
     background-color: rgb(230, 230, 230);
-    /* color: white; */
     color: #0e1212;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5rem 0;
+    position: relative;
 }
 
 .Gallery {
@@ -28,8 +28,43 @@
 .PhotoHeader {
     font-size: 3rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .Image {
     margin-bottom: 3vh;
+}
+
+.PhotoProfileContainer {
+    position: absolute;
+    top: -8rem;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.PhotoProfile {
+    display: block;
+    border: 7px solid rgb(200, 200, 200);
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+.profileImage {
+    display: block;
+    margin: 10px;
+    height: 18rem;
+    /* border: 1px solid green; */
+}
+
+.PhotoPageContent {
+    max-width: 50vw;
+    /* border: 1px solid red; */
+    margin-top: 10rem;
+}
+
+.PhotoParagraph {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: rgb(130, 130, 130);
 }

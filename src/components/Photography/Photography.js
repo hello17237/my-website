@@ -2,6 +2,8 @@ import React from 'react'
 import './Photography.css'
 import PhotoHeader from './PhotoHeader'
 import PhotoGallery from './PhotoGallery'
+import PhotoProfile from './PhotoProfile'
+import PhotoParagraph from './PhotoParagraph'
 import IMAGES from './Photos/photos.js'
 
 function Photography() {
@@ -18,8 +20,10 @@ function Photography() {
 
     return(
         <div className='PhotoPage'>
-            <div>
+            <div className='PhotoProfileContainer'><PhotoProfile/></div>
+            <div className='PhotoPageContent'>
                 <PhotoHeader/>
+                <PhotoParagraph/>
                 <PhotoGallery photoColumns={photoColumns}/>
             </div>
         </div>
