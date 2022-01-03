@@ -8,7 +8,7 @@ const navlinks = [
   {
     id: 1,
     text: 'Home',
-    url: '#home'
+    url: 'https://regiszhao.github.io/'
   },
   {
     id: 2,
