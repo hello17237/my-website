@@ -1,0 +1,42 @@
+.FooterPage {
+    display: flow-root;
+    background-color: #0e1212;
+    /* border: 1px solid red; */
+}
+
+.FooterText {
+    background-color: #0e1212;
+    max-width: 30vw;
+    text-align: center;
+    margin: 6rem auto;
+    /* border: 1px solid green; */
+}
+
+.thanks {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.footerMain {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.footerCredit {
+    font-size: 0.8rem;
+    color: rgb(130, 130, 130);
+    margin-top: 2rem;
+}
+
+.footerCredit > a {
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    background-color: #662ae949;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.footerCredit > a:hover {
+    color: #682ae9;
+    background-color: white;
+}
