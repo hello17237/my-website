@@ -10,7 +10,7 @@ function Footer() {
                     This website is a work in progress and I'm always trying to learn/work on new things so be sure to check back for updates. :)
                 </p>
                 <p className='footerCredit'>
-                    A large portion of this website design was based on the personal websites of <a href='https://iuri.is/'>Iuri de Paula</a> and <a href='http://brandoncjohnson.com/'>Brandon C. Johnson</a>. Be sure to check out their websites to see some of the inspirations behind this one!
+                    A large portion of this website design was based on the personal websites of <a href='https://iuri.is/' target="_blank">Iuri de Paula</a> and <a href='http://brandoncjohnson.com/' target="_blank">Brandon C. Johnson</a>. Be sure to check out their websites to see some of the inspirations behind this one!
                 </p>
             </div>
         </div>

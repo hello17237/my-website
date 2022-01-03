@@ -3,7 +3,7 @@ import profileImage from './PhotoProfile.jpg'
 
 function PhotoProfile() {
     return (
-        <div className="PhotoProfile">
+        <div id="photography" className="PhotoProfile">
             <img className="profileImage" src={profileImage}/>
         </div>
     )

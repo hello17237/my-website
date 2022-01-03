@@ -6,7 +6,7 @@ import './Home.css'
 
 function Home({name}) {
     return (
-        <div className='Homepage'>
+        <div id='home' className='Homepage'>
             <div className='HomeBackground'></div>
             <Name name={name}/>
             <ScrollButton destination='#about-me'/>

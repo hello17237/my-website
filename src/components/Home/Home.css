@@ -30,13 +30,13 @@
 
 @keyframes nameTransition {
     from {
-        font-size: 12vh;
+        font-size: 6rem;
         letter-spacing: 12px;
         word-spacing: 40px;
         opacity: 1;
     }
     to {
-        font-size: 10vh;
+        font-size: 5rem;
         letter-spacing: 10px;
         word-spacing: 30px;
         opacity: 90%;
@@ -48,7 +48,7 @@
     color: rgb(230, 230, 230);
     font-family: 'Monoton', cursive;
     text-align: center;
-    font-size: 12vh;
+    font-size: 6rem;
     letter-spacing: 12px;
     word-spacing: 40px;
     z-index: 1;

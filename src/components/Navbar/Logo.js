@@ -2,7 +2,7 @@ import React from 'react'
 
 function Logo({name}) {
     return(
-        <div className='Logo'>{name}</div>
+        <div className='Logo'><a href='home'>{name}</a></div>
     )
 }
 

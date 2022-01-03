@@ -24,13 +24,17 @@
 }
 
 .Logo {
-    font-size: 1.3rem;
-    font-family: 'Monoton', cursive;
     /* border: 1px solid white; */
-    color: #682ae9;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.Logo > a {
+    font-family: 'Monoton', cursive;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #682ae9;
 }
 
 .Navbar {
@@ -46,7 +50,7 @@
 }
 
 .Navbar-full {
-    background-image: linear-gradient(to bottom, #0e1212, #0e1212, rgb(0,0,0,0));
+    background-image: linear-gradient(to bottom, #0e1212, #0e1212 10%, #0e1212ea 65%, rgb(0,0,0,0));
     height: 12vh;
     width: 100vw;
     position: fixed;

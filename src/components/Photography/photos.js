@@ -1,6 +1,6 @@
 let numImages, key, fileName;
 
-numImages = 27;  //CHANGE THIS VALUE WHEN YOU CHANGE NUMBER OF PICTURES ON WEBSITE
+numImages = 33;  //CHANGE THIS VALUE WHEN YOU CHANGE NUMBER OF PICTURES ON WEBSITE
 const IMAGES = {};
 
 for (let i = 0; i < numImages; i++) {

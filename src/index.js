@@ -8,27 +8,27 @@ const navlinks = [
   {
     id: 1,
     text: 'Home',
-    url: 'https://www.google.com/doodles'
+    url: '#home'
   },
   {
     id: 2,
     text: 'About Me',
-    url: 'https://www.google.com/doodles'
+    url: '#about-me'
   },
   {
     id: 3,
     text: 'Projects',
-    url: 'https://www.google.com/doodles'
+    url: '#projects'
   },
   {
     id: 4,
     text: 'Photography',
-    url: 'https://www.google.com/doodles'
+    url: '#photography'
   },
   {
     id: 5,
     text: 'Contact Me',
-    url: 'https://www.google.com/doodles'
+    url: 'mailto:zhaoregis@gmail.com'
   }
 ]
 

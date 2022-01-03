@@ -90,3 +90,12 @@
     margin-top: 10rem;
     margin-bottom: 20rem;
 }
+
+.projectName {
+    color: #682ae9;
+    font-size: 1.8rem;
+}
+
+.projectDescrip {
+    font-size: 0.9rem;
+}

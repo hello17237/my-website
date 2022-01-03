@@ -8,7 +8,6 @@ function ProjectsList({projects}) {
             {projects.map(project =>
                 <ProjectsElem key={project.id} project={project}/>
             )}
-            {/* <script src='ProjectsListAnimation.js'></script> */}
         </ul>
     )
 }
