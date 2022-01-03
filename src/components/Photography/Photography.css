@@ -11,17 +11,15 @@
 }
 
 .Gallery {
-    max-width: 50vw;
     display: flex;
     flex-flow: row;
-    /* border: 1px solid red; */
+    /* border: 1px solid green; */
     justify-content: space-between;
 }
 
 .galleryColumn {
     display: flex;
     flex-flow: column;
-    max-width: 31%;
     /* border: 1px solid green; */
 }
 
@@ -57,7 +55,7 @@
 }
 
 .PhotoPageContent {
-    max-width: 50vw;
+    width: 70vw;
     /* border: 1px solid red; */
     margin-top: 10rem;
 }
@@ -66,5 +64,9 @@
     font-size: 0.9rem;
     text-align: center;
     margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     color: rgb(130, 130, 130);
+    width: 50vw;
+    /* border: 1px solid green; */
 }
