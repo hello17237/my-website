@@ -5,7 +5,7 @@ function PhotoGalleryColumn({photos, colWidth}) {
     return(
         <div style={{width:colWidth}} className='galleryColumn'>
             {photos.map(photo =>
-                <img className='Image' src={IMAGES[photo]}/>
+                <img className='Image' loading="lazy" src={IMAGES[photo]}/>
             )}
         </div>
     )
